@@ -5,5 +5,4 @@ export default function handler(req, res) {
     .then(response=>{
         res.status(200).json(response.data);
     })
- // res.status(200).json({ name: 'John Doe' })
 }
